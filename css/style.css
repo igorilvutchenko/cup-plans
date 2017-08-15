@@ -38,16 +38,16 @@ body {
 	margin: auto;
 	justify-content: space-around;
 	align-items: center;
+	padding: 50px 15px;
 }
 
-.flexbox--left,
-.flexbox--center,
-.flexbox--right {
+.flexbox {
 	display: flex;
 	background-color: #fff;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
+	padding: 40px;
 }
 
 .flexbox--left,
@@ -67,32 +67,27 @@ body {
 	font-size: 70px;
 }
 
-.flexbox__img-br,
-.flexbox__img-gl,
-.flexbox__img-sl {
+.flexbox__img img {
 	width: 135px;
 	height: 135px;
-}
-
-.flexbox__img-br {
-	background-image: url('../img/bronze_cup.png');
-}
-
-.flexbox__img-gl {
-	background-image: url('../img/gold_cup.png');
-}
-
-.flexbox__img-sl {
-	background-image: url('../img/silver_cup.png');
 }
 
 .flexbox__header {
 	font-family: 'miso-light';
 	font-size: 56px;
+	text-align: center;
+	max-width: 200px;
+	flex-basis: 70px;
+	overflow: hidden;
+	margin: 0;
 }
 
 .flexbox__descr {
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	text-align: center;
+	font-weight: 300;
+	max-width: 200px;
+	flex-basis: 70px;
+	overflow: hidden;
 }

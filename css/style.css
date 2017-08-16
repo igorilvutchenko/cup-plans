@@ -48,10 +48,11 @@ body {
 	justify-content: space-around;
 	align-items: center;
 	padding: 40px;
+	border-radius: 3px;
+	box-shadow: 0 2px 2px 0 #cab265;
 }
 
-.flexbox--left,
-.flexbox--right {
+.flexbox--aside {
 	width: 365px;
 	height: 445px;
 }
@@ -87,7 +88,8 @@ body {
 	font-size: 20px;
 	text-align: center;
 	font-weight: 300;
-	max-width: 200px;
+	padding: 0 60px;
 	flex-basis: 70px;
 	overflow: hidden;
+	text-overflow: ellipsis;
 }
